@@ -3,5 +3,5 @@ Requires=network.target
 After=network.target
 
 [Service]
-ExecStart=/usr/bin/irobot-server
+ExecStart=/usr/local/bin/irobot-server
 Restart=always
