@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const http = require('http');
 const uuid = require('uuid');
 const websocket = require('websocket');
@@ -112,4 +114,4 @@ socketServer.on('connect', function(sock) {
   methods = {robot: makeRobot, client: makeClient};
 });
 
-httpServer.listen(process.env.OPENSHIFT_NODEJS_PORT || 80, process.env.OPENSHIFT_NODEJS_IP);
+httpServer.listen(80);

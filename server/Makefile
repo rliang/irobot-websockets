@@ -1,5 +1,3 @@
-PREFIX?=/usr
-
 PROGRAM=irobot-server
 SERVICE=${PROGRAM}.service
 

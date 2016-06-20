@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const bluebird = require('bluebird');
 const nconf = bluebird.promisifyAll(require('nconf'));
 const serialport = bluebird.promisifyAll(require('serialport'));
